@@ -32,13 +32,13 @@ public class Simulasi_nilai extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simulasi_nilai);
 
-        _ETKehadiran = (EditText)findViewById(R.id.ETKehadiran);
-        _ETTugas = (EditText)findViewById(R.id.ETTugas);
-        _ETUTS = (EditText)findViewById(R.id.ETUTS);
-        _ETUAS = (EditText)findViewById(R.id.ETUAS);
+        _ETKehadiran = findViewById(R.id.ETKehadiran);
+        _ETTugas = findViewById(R.id.ETTugas);
+        _ETUTS = findViewById(R.id.ETUTS);
+        _ETUAS = findViewById(R.id.ETUAS);
 
-        _TVNilaiAkhir = (TextView) findViewById(R.id.TVNilaiAkhir);
-        _TVGradeAkhir = (TextView) findViewById(R.id.TVGradeAkhir);
+        _TVNilaiAkhir = findViewById(R.id.TVNilaiAkhir);
+        _TVGradeAkhir = findViewById(R.id.TVGradeAkhir);
     }
     //menvalidasi bahwa form harus diisi
     private  boolean validasiInput(){
@@ -89,10 +89,10 @@ public class Simulasi_nilai extends AppCompatActivity {
         }
     }
     private  double HitungNilaiAkhir() { //function
-        double kehadiran = (double)0.1* _nilaiKehadiran; //10%
-        double tugas = (double)0.2 * _nilaiTugas; //20%
-        double uts = (double)0.3 * _nilaiUTS; //30%
-        double uas = (double)0.4 * _nilaiUAS; //40%
+        double kehadiran = 0.1 * _nilaiKehadiran; //10%
+        double tugas = 0.2 * _nilaiTugas; //20%
+        double uts = 0.3 * _nilaiUTS; //30%
+        double uas = 0.4 * _nilaiUAS; //40%
         return kehadiran + tugas + uts + uas; //mengembalikan nilai dgn "return"
     }
     private  String gradeAkhir(){ //function

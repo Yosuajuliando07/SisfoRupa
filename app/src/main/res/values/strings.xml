@@ -10,4 +10,22 @@
     <string name="ikon2">Ikon 2</string>
     <string name="saran">Saran</string>
     <string name="tentang">Tentang</string>
+
+    <string name="halaman_cuaca">HALAMAN CUACA</string>
+    <string name="halaman_nilai">HALAMAN NILAI</string>
+    <string name="halaman_profil">HALAMAN PROFIL</string>
+    <string name="halaman_ikon_1">HALAMAN IKON 1</string>
+    <string name="halaman_ikon_2">HALAMAN IKON 2</string>
+    <string name="halaman_saran">HALAMAN SARAN</string>
+    <string name="halaman_tentang">HALAMAN TENTANG</string>
+
+    <string name="hadir">Kehadiran</string>
+    <string name="tgs">Tugas</string>
+    <string name="uts">UTS</string>
+    <string name="uas">UAS</string>
+    <string name="ht">HITUNG</string>
+
+
+
+
 </resources>

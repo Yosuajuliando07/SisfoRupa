@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Halaman Saran"
+        android:text="@string/halaman_saran"
         android:textSize="48sp"
         android:id="@+id/saran"
         android:layout_gravity="center_horizontal"/>

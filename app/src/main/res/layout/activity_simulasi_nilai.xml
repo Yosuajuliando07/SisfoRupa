@@ -23,28 +23,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#fff"
-        android:hint="Kehadiran"
+        android:hint="@string/hadir"
         android:inputType="number"/>
     <EditText
         android:id="@+id/ETTugas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#fff"
-        android:hint="Tugas"
+        android:hint="@string/tgs"
         android:inputType="number" />
     <EditText
         android:id="@+id/ETUTS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#fff"
-        android:hint="UTS"
+        android:hint="@string/uts"
         android:inputType="number" />
     <EditText
         android:id="@+id/ETUAS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#fff"
-        android:hint="UAS"
+        android:hint="@string/uas"
         android:inputType="number" />
     <TextView
         android:id="@+id/TVGradeAkhir"
@@ -68,7 +68,7 @@
         android:layout_width="195dp"
         android:layout_height="55dp"
         android:layout_gravity="center_horizontal"
-        android:text="HITUNG"
+        android:text="@string/ht"
         android:background="@drawable/background_button"
         android:onClick="HitungonClick"
         android:textColor="#fff"/>
