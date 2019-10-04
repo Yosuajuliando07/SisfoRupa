@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Simulasi_nilai extends AppCompatActivity {
-    private EditText _ETKehadiran; //ET = EditText dan TV = TextView untuk memudahkan saja
+    private EditText _ETKehadiran;
     private EditText _ETTugas;
     private EditText _ETUTS;
     private EditText _ETUAS;

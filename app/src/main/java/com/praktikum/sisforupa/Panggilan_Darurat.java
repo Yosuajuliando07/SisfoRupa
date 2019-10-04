@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Ikon_2 extends AppCompatActivity {
+public class Panggilan_Darurat extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ikon_2);
+        setContentView(R.layout.activity_panggilan__darurat);
     }
 }

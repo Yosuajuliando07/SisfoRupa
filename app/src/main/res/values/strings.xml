@@ -6,8 +6,8 @@
     <string name="cuaca">Cuaca</string>
     <string name="nilai">Nilai</string>
     <string name="profil">Profil</string>
-    <string name="ikon1">Ikon 1</string>
-    <string name="ikon2">Ikon 2</string>
+    <string name="telp">Telepon</string>
+    <string name="maps">Maps</string>
     <string name="saran">Saran</string>
     <string name="tentang">Tentang</string>
 
@@ -24,8 +24,6 @@
     <string name="uts">UTS</string>
     <string name="uas">UAS</string>
     <string name="ht">HITUNG</string>
-
-
 
 
 </resources>

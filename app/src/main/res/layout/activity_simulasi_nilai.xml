@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/backgroundku"
     tools:context=".Simulasi_nilai">
 
     <TextView
@@ -16,34 +15,34 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="55dp"
         android:text="@string/simulasi_nilai"
-        android:textColor="#fff"
-        android:textSize="20sp"/>
+        android:textColor="#6b85ff"
+        android:textSize="30sp"/>
     <EditText
         android:id="@+id/ETKehadiran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#fff"
+        android:backgroundTint="#6b85ff"
         android:hint="@string/hadir"
         android:inputType="number"/>
     <EditText
         android:id="@+id/ETTugas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#fff"
+        android:backgroundTint="#6b85ff"
         android:hint="@string/tgs"
         android:inputType="number" />
     <EditText
         android:id="@+id/ETUTS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#fff"
+        android:backgroundTint="#6b85ff"
         android:hint="@string/uts"
         android:inputType="number" />
     <EditText
         android:id="@+id/ETUAS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#fff"
+        android:backgroundTint="#6b85ff"
         android:hint="@string/uas"
         android:inputType="number" />
     <TextView
@@ -51,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:textAlignment="center"
-        android:textColor="#fff"
+        android:textColor="#6b85ff"
         android:textSize="50sp"/>
 
     <TextView
@@ -60,7 +59,7 @@
         android:layout_height="36dp"
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
-        android:textColor="#fff"
+        android:textColor="#6b85ff"
         android:textSize="16sp" />
 
     <Button
